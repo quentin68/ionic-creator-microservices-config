@@ -1,6 +1,5 @@
-r# COMMON APPLICATION PROPERTIES
-
-server:
+# COMMON APPLICATION PROPERTIES
+server :
   # start services on random port by default
   port: 0
   # The stop processing uses a timeout which provides a grace period during which existing requests will be allowed to complete but no new requests will be permitted
@@ -79,7 +78,7 @@ spring:
   datasource:
     schema: classpath*:db/mysql/schema.sql
     data: classpath*:db/mysql/data.sql
-    url: jdbc:mysql://localhost:3306/ioniccreator?useSSL=false
+    url: jdbc:mysql://localhost:3306/petclinic?useSSL=false
     username: root
-    password: 001978qb
+    password: petclinic
     initialization-mode: ALWAYS
