@@ -1,9 +1,6 @@
 spring:
  profiles: default
 eureka:
-  instance:
-   instance-id: auth-user-service
-eureka:
   client:
     serviceUrl:
       defaultZone: http://discovery-server:8761/eureka/
