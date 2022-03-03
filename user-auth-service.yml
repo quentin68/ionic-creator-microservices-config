@@ -1,16 +1,2 @@
 spring:
-  application:
-    name: user_auth_service
-bezcoder:
- app:
-  jwtSecret: bezKoderSecretKey
-  jwtExpirationMs: 86400000
-spring:
   profiles: default
-eureka:
-  instance:
-    # enable to register multiple app instances with a random server port
-    instance-id: ${spring.application.name}
-  client:
-    serviceUrl:
-      defaultZone: http://discovery-server:8761/eureka/
