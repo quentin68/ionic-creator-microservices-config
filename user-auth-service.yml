@@ -1,6 +1,5 @@
 spring:
-  profiles: default
-  
- eureka:
+ profiles: defaul
+eureka:
   instance:
-    instance-id: auth-user-service
+   instance-id: auth-user-service
