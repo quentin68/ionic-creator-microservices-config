@@ -1,4 +1,9 @@
-﻿spring:
+bezcoder:
+  app:
+    jwtSecret: bezKoderSecretKey
+    jwtExpirationMs: 86400000
+
+spring:
   profiles: default
 eureka:
   instance:
