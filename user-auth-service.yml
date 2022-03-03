@@ -1,14 +1,2 @@
 spring:
  profiles: default
- 
- cloud:
-    gateway:
-      default-filters:
-        - DedupeResponseHeader=Access-Control-Allow-Credentials Access-Control-Allow-Origin
-      globalcors:
-        corsConfigurations:
-          '[/**]':
-              allowedOriginPatterns: "*"
-              allowedMethods: "*"
-              allowedHeaders: "*"
-
