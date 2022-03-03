@@ -2,7 +2,7 @@ zuul:
   prefix: /api
   ignoredServices: '*'
   routes:
-    USER-AUTH-SERVICE: /auth/**
+    user-auth-service: /auth/**
     api-gateway: /gateway/**
 
 server:
